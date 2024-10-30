@@ -363,7 +363,7 @@ df_dropped = df.drop([
     'OnlineSecurity', 'OnlineBackup', 'StreamingTV', 'DeviceProtection', 'StreamingMovies', 'TechSupport'], axis=1)
 
 
-###################################################################################################################
+##################################################################################################################
 
 # Define numerical and categorical variables
 # Get categorical columns (usually 'object' or 'category' types)
@@ -376,7 +376,7 @@ numerical_columns = df_dropped.select_dtypes(include=['int64', 'float64']).colum
 print("Categorical columns:", categorical_columns)
 print("Numerical columns:", numerical_columns)
 
-####################################################################################################################
+###################################################################################################################
 
 df_dropped.head()
 # Assuming you have a list of categorical columns
