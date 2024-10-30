@@ -363,7 +363,7 @@ df_dropped = df.drop([
     'OnlineSecurity', 'OnlineBackup', 'StreamingTV', 'DeviceProtection', 'StreamingMovies', 'TechSupport'], axis=1)
 
 
-####################################################################################################################
+###################################################################################################################
 
 # Define numerical and categorical variables
 # Get categorical columns (usually 'object' or 'category' types)
